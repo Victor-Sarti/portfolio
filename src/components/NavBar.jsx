@@ -3,7 +3,7 @@ import { useRef } from 'react';
 
 const NavBar = () => {
     const lastActiveLink  = useRef();
-
+    const activeBox = useRef();
 const navItems = [
     {
       label: 'Home',
@@ -34,13 +34,14 @@ const navItems = [
   ];
 
   return (
-   <nav className=''>
+   <nav className='navbar'>
     {
         navItems.map(({label, link, className,ref}, key)=>(
-            <a href=""></a>
+            <a href={link} key={key} ref={ref} className={className} onClick={null}> {label}</a>
         )) 
     }
-
+      <div className="active-box" ref={activeBox}></div>
+  
    </nav>
   )
 }
