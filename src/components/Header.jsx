@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.svg'
+import NavBar from './NavBar'
 const Header = () => {
   return (
     <header className=' fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0'>
@@ -15,7 +16,7 @@ const Header = () => {
                     <span className="material-symbols-rounded">menu</span>    
                 </button>
 
-                NavBar            
+                <NavBar/>            
             </div>
             <a href="#contact" className="">Contact Me</a>
         </div>
