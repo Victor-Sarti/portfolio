@@ -1,7 +1,8 @@
 import React from 'react'
 import { useRef } from 'react';
+import PropTypes from 'prop-types';
 
-const NavBar = () => {
+const NavBar = ({navOpen}) => {
     const lastActiveLink  = useRef();
     const activeBox = useRef();
 const navItems = [
@@ -33,8 +34,12 @@ const navItems = [
     }
   ];
 
+  NavBar.PropTypes = {
+    navOpen: PropTypes.bool.isRequired
+  
+  }
   return (
-   <nav className='navbar'>
+   <nav className={'navbar ' + (navOpen ? 'active' : '')}>
     {
         navItems.map(({label, link, className,ref}, key)=>(
             <a href={link} key={key} ref={ref} className={className} onClick={null}> {label}</a>
@@ -45,6 +50,8 @@ const navItems = [
    </nav>
   )
 }
+
+
 
 export default NavBar
 
