@@ -1,5 +1,7 @@
 import React from 'react'
 import   perfil from '../assets/Eu.png'
+
+import { ButtonPrimary } from './Button'
 const Hero = () => {
   return (
     <section id='home' className='pt-28 lg:pt-36'>
@@ -21,7 +23,9 @@ const Hero = () => {
                     Building Scalable Modern Websites for the Future 
                 </h2>
                 <div className=' flex items-center gap-3'>
-                    ButtonPrimary 
+                <ButtonPrimary 
+                label="Download CV"
+                icon="download"/> 
 
                     ButtonOutline 
                 </div>
