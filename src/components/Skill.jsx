@@ -50,7 +50,7 @@ const Skill = () => {
                 Essential Tools I use
             </h2>
 
-            <p className="">
+            <p className=" text-zinc-400 mt-3 mb-8 max-w-[50ch]">
             Discover the powerful tools and technologies
             I use to create exceptional, high-performing 
             websites & applications.
