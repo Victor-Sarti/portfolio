@@ -33,7 +33,7 @@ const Skill = () => {
             websites & applications.
             </p>
 
-            <div className=" grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr'))]">
+            <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
                 {
                     skillItem.map(({imgSrc, label, desc}, key) => 
                     (
