@@ -1,11 +1,12 @@
 import ProjectCard from "./ProjectCard";
+import itech from "../assets/itechplace.png"
 
 const works = [
     {
-      imgSrc: '/images/project-1.jpg',
-      title: 'Full stack music app',
+      imgSrc: itech,
+      title: 'ItechPlace',
       tags: ['API', 'MVC', 'Development'],
-      projectLink: 'https://musify-5al0.onrender.com/'
+      projectLink: 'https://itechplace-git-main-victors-projects-5fb761b6.vercel.app/'
     },
     {
       imgSrc: '/images/project-2.jpg',
@@ -51,7 +52,15 @@ const Work = () => {
 
         <div className="">
             {works.map(({ imgSrc,title,tags,projectLink}, key) => (
-                <ProjectCard/>
+                <ProjectCard 
+                key={key}
+                imgSrc={imgSrc}
+                title={title}
+                tags={tags}
+                projectLink={projectLink}
+                  />
+
+                
             ))}
         </div>
     </div>
