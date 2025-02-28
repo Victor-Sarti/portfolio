@@ -1,5 +1,9 @@
 import ProjectCard from "./ProjectCard";
 import itech from "../assets/itechplace.png"
+import buguer from "../assets/figma1.png"
+import gym from "../assets/gym.png"
+import music from "../assets/schoolmusic.png"
+import todo from "../assets/todo.png"
 
 const works = [
     {
@@ -9,34 +13,28 @@ const works = [
       projectLink: 'https://itechplace-git-main-victors-projects-5fb761b6.vercel.app/'
     },
     {
-      imgSrc: '/images/project-2.jpg',
-      title: 'Free stock photo app',
+      imgSrc: buguer,
+      title: 'Menu Hamburguer',
       tags: ['API', 'SPA'],
-      projectLink: 'https://pixstock-official.vercel.app/'
+      projectLink:'https://www.figma.com/proto/8AFc98jfGakcWxL8xnwPwg/Projeto-Hamburguer-Byel?node-id=1-2&p=f&t=BXBP8Zu9fx8ruTzT-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2'
     },
     {
-      imgSrc: '/images/project-3.jpg',
-      title: 'Recipe app',
+      imgSrc: gym,
+      title: 'Gym',
       tags: ['Development', 'API'],
-      projectLink: ''
+      projectLink: 'https://teste-gym-tau.vercel.app/'
     },
     {
-      imgSrc: '/images/project-4.jpg',
-      title: 'Real state website',
+      imgSrc: todo,
+      title: 'ToDoList',
       tags: ['Web-design', 'Development'],
       projectLink: 'https://github.com/codewithsadee-org/wealthome'
     },
     {
-      imgSrc: '/images/project-5.jpg',
-      title: 'eCommerce website',
+      imgSrc: music,
+      title: 'Music school',
       tags: ['eCommerce', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
-    },
-    {
-      imgSrc: '/images/project-6.jpg',
-      title: 'vCard Personal portfolio',
-      tags: ['Web-design', 'Development'],
-      projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+      projectLink: 'https://template-school-gold.vercel.app/'
     },
   ];
 
