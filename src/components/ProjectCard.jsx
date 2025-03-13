@@ -14,20 +14,20 @@ const ProjectCard = ({
       </figure>
 
       <div className=" flex items-center justify-between gap-4">
-        <h3 className="title-1"> {title}</h3>
-        <div className=""> {tags.map((label, key) => (
+        <h3 className="title-1 mb-3 "> {title}</h3>
+        <div className="flex flex-wrap items-center gap-2"> {tags.map((label, key) => (
           <span
             key={key}
-            className=""></span>
+            className="h-8 text-sm text-zinc-400 bg-zinc-50/5 grid items-center px-3 rounded-lg"> {label}  </span>
         ))}</div>
 
-        <div className="">
+        <div className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0">
           <span className=" material-symbols-rounded" aria-hidden="true"> arrow_outward</span>
         </div>
       </div>
 
 
-      <a href={projectLink} target="_blank" className=""></a>
+      <a href={projectLink} target="_blank" className="absolute inset-0"></a>
     </div>
   );
 }

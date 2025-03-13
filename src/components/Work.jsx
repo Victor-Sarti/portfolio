@@ -9,19 +9,19 @@ const works = [
     {
       imgSrc: itech,
       title: 'ItechPlace',
-      tags: ['API', 'MVC', 'Development'],
+      tags: ['API', 'Development'],
       projectLink: 'https://itechplace-git-main-victors-projects-5fb761b6.vercel.app/'
     },
     {
       imgSrc: buguer,
       title: 'Menu Hamburguer',
-      tags: ['API', 'SPA'],
+      tags: ['Web-design', 'Development'],
       projectLink:'https://www.figma.com/proto/8AFc98jfGakcWxL8xnwPwg/Projeto-Hamburguer-Byel?node-id=1-2&p=f&t=BXBP8Zu9fx8ruTzT-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2'
     },
     {
       imgSrc: gym,
       title: 'Gym',
-      tags: ['Development', 'API'],
+      tags: [ 'API', 'Development' ],
       projectLink: 'https://teste-gym-tau.vercel.app/'
     },
     {
@@ -33,7 +33,7 @@ const works = [
     {
       imgSrc: music,
       title: 'Music school',
-      tags: ['eCommerce', 'Development'],
+      tags: ['Development'],
       projectLink: 'https://template-school-gold.vercel.app/'
     },
   ];
@@ -48,7 +48,7 @@ const Work = () => {
     <div className="container">
         <h2 className="headline-2 mb-8"> My portfólio highlights</h2>
 
-        <div className="">
+        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
             {works.map(({ imgSrc,title,tags,projectLink}, key) => (
                 <ProjectCard 
                 key={key}
