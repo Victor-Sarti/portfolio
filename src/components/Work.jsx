@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import itech from "../assets/itechplace.png"
-import buguer from "../assets/figma1.png"
+import buguer from "../assets/Figma1.png"
 import gym from "../assets/gym.png"
 import music from "../assets/schoolmusic.png"
 import todo from "../assets/todo.png"
