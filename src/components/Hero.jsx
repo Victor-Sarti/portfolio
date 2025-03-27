@@ -7,7 +7,7 @@ const Hero = () => {
     <section id='home' className='pt-28 lg:pt-36'>
         <div className='container lg:grid lg:grid-cols-2 items-center lg:gap-10 '>
            <div>
-                <div className='flex items-center gap-3'>
+                {/* <div className='flex items-center gap-3'>
                     <figure className='img-box w-9 h-9 rounded-lg'>
                         <img src="" width={40} height={40} alt="" className='img-cover' />
                     </figure>
@@ -18,7 +18,7 @@ const Hero = () => {
                         </span>
                         Available for Work 
                     </div>
-                </div>
+                </div> */}
                 <h2 className='headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10'>
                     Building Scalable Modern Websites for the Future 
                 </h2>
