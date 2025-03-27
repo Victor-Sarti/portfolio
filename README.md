@@ -1,8 +1,35 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descrição do Projeto: 
 
-Currently, two official plugins are available:
+Este projeto é um portfólio pessoal que apresenta habilidades e experiências em desenvolvimento web. O layout moderno e responsivo é construído utilizando React e Tailwind CSS, proporcionando uma experiência de usuário otimizada.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+├── .gitignore           
+├── README.md            
+├── eslint.config.js     
+├── index.html           
+├── package-lock.json    
+├── package.json         
+├── postcss.config.js    
+├── public               
+│   └── vite.svg         
+├── src                  
+│   ├── App.jsx          
+│   ├── assets           
+│   │   ├── CvVictorSarti.pdf 
+│   │   ├── Eu.png          
+│   │   ├── ...             
+│   ├── components        
+│   │   ├── About.jsx     
+│   │   ├── Button.jsx    
+│   │   ├── ...           
+│   ├── index.css        
+│   └── main.jsx       
+├── tailwind.config.js    
+└── vite.config.js       
+
+
+Tecnologias Utilizadas:
+
+React: Biblioteca JavaScript para construção de interfaces de usuário.
+Tailwind CSS: Framework CSS para estilização rápida e responsiva.
+Vite: Ferramenta de build rápida para desenvolvimento em JavaScript.
