@@ -4,12 +4,8 @@ import logo from '../assets/logo.svg'
 
 const aboutItems = [
     {
-        label: 'Project done',
+        label: 'Projetos no repositório',
         number: 10
-    },
-    {
-        label: 'Years of experience',
-        number: 1
     }
 ];
 
@@ -20,10 +16,9 @@ const About = () => {
             <div className="container">
                 <div className=' bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up'>
                     <p className=" text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi,
-                        illo exercitationem cum eos voluptas quis quam commodi. Dignissimos
-                        quasi ad rem, perferendis harum dolore eos blanditiis dicta incidunt facere
-                        voluptatum totam, minus obcaecati, eum temporibus illo alias sunt impedit esse!
+                    Olá! Eu sou Victor Sarti, tenho 19 anos e atualmente estou no 4º semestre de Análise de Sistemas no Senac. <br /> <br />
+                     Possuo certificações em programação que demonstram meu comprometimento e conhecimento técnico. Programar é uma verdadeira paixão para mim, o que me motiva a aprender constantemente. <br /> <br /> 
+                     Trabalho na Minsait como Suporte de T.I., onde desenvolvo habilidades práticas e técnicas. Meu objetivo é contribuir para projetos inovadores, com foco na criação de sites modernos e escaláveis, no desenvolvimento de software, APIs e bancos de dados. Estou sempre em busca da excelência nas soluções que ofereço.
                     </p>
 
                     <div className="flex flex-wrap items-center gap-4 md:gap-7">

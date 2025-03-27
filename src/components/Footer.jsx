@@ -4,23 +4,19 @@ import logo from '../assets/logo.svg'
 
 const sitemap = [
     {
-        label: 'Home',
+        label: 'Início',
         href: '#home'
     },
     {
-        label: 'About',
+        label: 'Sobre',
         href: '#about'
     },
     {
-        label: 'Work',
+        label: 'Projeto',
         href: '#work'
     },
     {
-        label: 'Reviews',
-        href: '#reviews'
-    },
-    {
-        label: 'Contact me',
+        label: 'Contata-me',
         href: '#contact'
     }
 ];
@@ -28,16 +24,16 @@ const sitemap = [
 const socials = [
     {
         label: 'GitHub',
-        href: 'https://www.github.com/codewithsadee-org'
+        href: 'https://github.com/Victor-Sarti'
     },
     {
         label: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/codewithsadee'
+        href: 'https://www.linkedin.com/in/victor-sarti-ab6807249/'
     },
 
     {
         label: 'Instagram',
-        href: 'https://www.instagram.com/codewithsadee'
+        href: 'https://www.instagram.com/_sarti00/'
     }
 ];
 
@@ -48,10 +44,9 @@ export default function Footer() {
 
                 <div className="lg: grid lg:grid-cols-2 ">
                     <div className="mb-10">
-                        <h2 className="headline-1 mb-8 lg:max-w-[12ch]"> Let&apos;s work together today!
+                        <h2 className="headline-1 mb-8 lg:max-w-[12ch]"> Vamos trabalhar juntos hoje!
                         </h2>
-                        <ButtonPrimary href="sartivictor24@gmail.com" label='Start project' icon="chevron_right" /> 
-
+                        <ButtonPrimary href="mailto:sartivictor24@gmail.com?subject=Início de Projeto&body=Olá, gostaria de discutir sobre um novo projeto." label='Inicie Agora!' icon="chevron_right" />
                     </div>
 
                     <div className="grid grid-cols-2 gap-4 lg:pl-20">
@@ -67,7 +62,7 @@ export default function Footer() {
                         </div>
                         
                         <div>
-                            <p className="mb-2"> socials</p>
+                            <p className="mb-2"> Social</p>
                             <ul>
                                 {socials.map(({label, href}, key) => (
                                     <li key={key}>
