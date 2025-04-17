@@ -1,6 +1,7 @@
 import React from 'react'
 import perfil from '../assets/Eu.png'
 import cv from '../assets/CvVictorSarti.pdf'
+import cvDev from '../assets/Curriculodev.pdf'
 
 import { ButtonPrimary, ButtonOutline } from './Button'
 
@@ -24,7 +25,7 @@ const Hero = () => {
                     <h2 className='headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10'>
                     Seja Bem-Vindo! <br /> Este é o meu portfólio. </h2>
                     <div className=' flex items-center gap-3'>
-                        <a href={cv} download>
+                        <a href={cvDev} download>
                             <ButtonPrimary
                                 label="Instalar Cv"
                                 icon="download"
