@@ -1,7 +1,6 @@
 import React from 'react'
 import perfil from '../assets/Eu.png'
-import cv from '../assets/CvVictorSarti.pdf'
-import cvDev from '../assets/Curriculodev.pdf'
+import cvDev from '../assets/curridev.pdf'
 
 import { ButtonPrimary, ButtonOutline } from './Button'
 
